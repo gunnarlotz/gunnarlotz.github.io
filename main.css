@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Hind:600,300);
+
+/*----------------------------------------------------------------------------------------
+						FONT (OPEN SANS) IMPORT FROM GOOGLE FONTS 
+-----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------
+						COMMON STYLES
+-----------------------------------------------------------------------------------------*/
+
+body {
+	font-family: 'Hind', sans-serif;
+	font-size: 17px;
+	font-weight: lighter;
+	line-height: 1.5;
+	color: #ffe;
+	background: #223486;
+}
+
+#wrap {
+	overflow: hidden;
+}
+
+header {
+	padding-top: 20px;
+	padding-bottom: 150px;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	border-bottom: 1px solid #efefef;
+}
+
+
+a,
+a:hover,
+a:focus {
+	color: inherit;
+	text-decoration: none;
+	outline: 0;
+	-webkit-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	-ms-transition: all 0.25s ease-out;
+	-o-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+}
+
+h2 {
+	padding-top: 80px;
+}
+
+h1 {
+	line-height: 1.2;
+	font-weight: 100;
+	letter-spacing: 0.5px;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+p#glfooter {
+	font-size: 10px;
+	padding-left: 20px;
+}
+
+
+@media (max-width: 1200px) {
+header {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+}
+@media (max-width: 992px) {
+
+body {
+	text-align: center;
+}
+
+header {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+
+
+h1 {
+	font-size: 40px;
+}
+}
+
